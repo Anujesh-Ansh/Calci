@@ -1,0 +1,56 @@
+/* todo : Make a button to change to dark/light theme , try making variables in CSS*/
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+button{
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 25px;
+    color: orange;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.center{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.center::first-letter{
+    font-size: 100px;
+}
+
+.row{
+    text-align: center;
+}
+
+
+#r1 button{
+    background-color: orange;
+    color: white;
+}
+
+.row input{
+    
+    background-color: grey;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    font-size: medium;
+    text-align: end;
+    border: none;
+
+}
+
+
